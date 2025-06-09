@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chris G | Mon premier site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="header-nav">
+        <a href="#">Home</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="mon-logo">
+        <img src="/images/Clario.png" alt="Logo Clario" />
+      </div>
+
+      <section class="header-buttons">
+        <a
+          href="https://www.instagram.com/chris_gdt/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/Logo-insta.png" alt="Logo Insta"
+        /></a>
+
+        <a
+          href="https://www.youtube.com/@Christophegodet-t4s"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/Logo-Youtube.png" alt="logo Youtube"
+        /></a>
+
+        <a href="#contact">
+          <img src="images/Logo-lettre.png" alt="Logo Contact" />
+        </a>
+      </section>
+    </header>
+
+    <hr />
+
+    <h1 class="titre">Ta Vision, Ton Intention, Ton Ascension</h1>
+
+    <section class="image-gallery">
+      <img src="images/CHEN1590-XL.jpg" alt="Photo 1" />
+      <img src="images/CHEN2143-XL.jpg" alt="Photo 2" />
+      <img src="images/CHEN4156-XL.jpg" alt="Photo 3" />
+      <img src="images/LC1_2809-XL.jpg" alt="Photo 4" />
+      <img src="images/LC2_1664-Edit-XL.jpg" alt="Photo 5" />
+      <img src="images/IMG_7489-XL.jpg" alt="Photo 6" />
+    </section>
+
+    <hr />
+
+    <h2 class="titre-video">Video Motivation</h2>
+
+    <section class="video-gallery">
+      <div>
+        <iframe
+          src="https://www.youtube.com/embed/6EthGRnCZrw"
+          title="video pomodoro"
+        ></iframe>
+      </div>
+      <div>
+        <iframe
+          src="https://www.youtube.com/embed/N3GjByniCTQ"
+          title="session pomodoro"
+        ></iframe>
+      </div>
+    </section>
+
+    <hr />
+    <h3 id="contact" class="title-contact">Contact Chris G</h3>
+
+    <section class="contact-section">
+      <form action="Contact" method="POST" class="contact">
+        <label for="name">Nom complet</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Ton nom"
+          required
+        />
+
+        <label for="email">Adresse e-mail</label>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="exemple@domaine.com"
+          required
+        />
+
+        <label for="message">Message</label>
+
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Écris ton message ici..."
+          required
+        ></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </body>
+</html>
